@@ -1,0 +1,37 @@
+# Виртуальное окружение Python
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Переменные окружения и секреты
+.env
+.env.*
+!.env.example
+
+# PyCharm
+.idea/
+
+# Локальные настройки и логи
+*.log
+*.tmp
+
+# Базы данных и резервные копии
+*.bak
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# Сборки и дистрибутивы
+build/
+dist/
+*.spec
+
+# Системные файлы
+.DS_Store
+Thumbs.db
